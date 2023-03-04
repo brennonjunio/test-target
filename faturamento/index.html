@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Faturamento</title>
+  </head>
+
+  <body>
+    <!-- <button class="btn btn-primary pesquisar" onclick="resultMaior()">
+      Pesquisar -->
+
+    <div class="tabelas-resultados">
+      <table class="table-faturamento" id="maior-faturamento">
+        <p>Maior Valor vendido</p>
+        <tr>
+          <th>Dia</th>
+          <th>Valor</th>
+        </tr>
+        <tr>
+          <td id="maiorDia"></td>
+          <td id="maiorValor"></td>
+        </tr>
+      </table>
+      <table class="table-faturamento" id="menor-faturamento">
+        <p>Menor Valor vendido</p>
+        <tr>
+          <th>Dia</th>
+          <th>Valor</th>
+        </tr>
+        <tr>
+          <td id="menorDia"></td>
+          <td id="menorValor"></td>
+        </tr>
+      </table>
+      <table class="table-faturamento" id="media-faturamento">
+        <p>Media Faturamento</p>
+        <tr>
+          <th>Quantidade de Dias</th>
+          <th>Valor Faturado</th>
+        </tr>
+        <tr>
+          <td id="qtdDias"></td>
+          <td id="mediaDias"></td>
+        </tr>
+      </table>
+      <table class="table-faturamento" id="dias-media">
+        <tr>
+          <th>Dias Acima da Media</th>
+        </tr>
+        <tr>
+          <td id="media-dia"></td>
+        </tr>
+      </table>
+    </div>
+    <script src="faturamento.js"></script>
+  </body>
+</html>
